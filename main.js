@@ -26,16 +26,16 @@ const codeGenerator = require('./code-generator')
 
 function getGenOptions() {
     return {
-        installPath: app.preferences.get('odoo_lite.gen.installPath'),
-        useTab: app.preferences.get('odoo_lite.gen.useTab'),
-        indentSpaces: app.preferences.get('odoo_lite.gen.indentSpaces'),
-        docString: app.preferences.get('odoo_lite.gen.docString'),
-        addonName: app.preferences.get('odoo_lite.gen.addonName'),
-        appName: app.preferences.get('odoo_lite.gen.appName'),
-        iconName: app.preferences.get('odoo_lite.gen.iconName'),
-        odooVersion: app.preferences.get('odoo_lite.gen.odooVersion'),
-        depends: app.preferences.get('odoo_lite.gen.depends'),
-        en_language: app.preferences.get('odoo_lite.gen.en_language')
+        installPath: app.preferences.get('odoo.gen.installPath'),
+        useTab: app.preferences.get('odoo.gen.useTab'),
+        indentSpaces: app.preferences.get('odoo.gen.indentSpaces'),
+        docString: app.preferences.get('odoo.gen.docString'),
+        addonName: app.preferences.get('odoo.gen.addonName'),
+        appName: app.preferences.get('odoo.gen.appName'),
+        iconName: app.preferences.get('odoo.gen.iconName'),
+        odooVersion: app.preferences.get('odoo.gen.odooVersion'),
+        depends: app.preferences.get('odoo.gen.depends'),
+        en_language: app.preferences.get('odoo.gen.en_language')
     }
 }
 
